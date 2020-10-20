@@ -37,7 +37,7 @@ class DemoController
             ->withHeader('Last-Modified', gmdate('D, d M Y H:i:s') . ' GMT')
             ->withHeader('Cache-Control', 'no-cache, must-revalidate')
             ->withHeader('Pragma', 'no-cache')
-            ->withHeader('Content-Type', 'text/plain; charset=utf8')
+            ->withHeader('Content-Type', 'application/json; charset=utf8')
             ->withHeader('X-Robots-Tag', 'noindex, nofollow');
     }
 }
