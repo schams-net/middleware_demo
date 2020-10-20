@@ -1,0 +1,20 @@
+{
+    "name": "schams-net/middleware-demo",
+    "description": "TYPO3 extension to demonstrate PSR-15 middlewares",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Michael Schams",
+            "homepage": "https://schams.net"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5 | ^10.4",
+        "php": "^7.2 | ^7.3 | ^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchamsNet\\MiddlewareDemo\\": "Classes"
+        }
+    }
+}
